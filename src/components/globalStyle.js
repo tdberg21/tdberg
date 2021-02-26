@@ -16,13 +16,18 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     font-size: 1.125rem;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
     font-weight: 400;
-    }
+  }
+
+  a {
+    color: white;
+  }
+
 
 `;
 
