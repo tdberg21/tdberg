@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: #000;
     color: #fff;
     font-size: 1.125rem;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: "Arvo", Arial, Helvetica, sans-serif;
     line-height: 1.75rem;
     font-weight: 400;
   }

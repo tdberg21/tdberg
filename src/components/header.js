@@ -7,7 +7,7 @@ const StyledHeader = styled.div`
   align-items: center;
   justify-content: center;
   padding: 0 1rem 0 3rem;
-  /* font-family: 'Roboto Condensed', Roboto, sans-serif; */
+  font-family: 'Arvo', Roboto, sans-serif;
 `;
 
 const Header = () => {

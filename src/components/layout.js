@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import GlobalStyle from "./globalStyle";
 import Header from "./header";
+import Footer from "./footer";
 
 const StyledLayout = styled.div`
   width: 100%;
@@ -19,12 +20,15 @@ const StyledLayout = styled.div`
   }
   `
 const Layout = ({ children }) => {
-  console.log(children)
   return (
     <StyledLayout>
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+      </style>
       <GlobalStyle />
       <Header />
       <main id="main-content" >{children}</main>
+      <Footer />
     </StyledLayout>
   );
 }
